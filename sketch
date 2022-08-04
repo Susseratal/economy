@@ -1,0 +1,20 @@
+company:
+has income vs costs
+makes 1 product
+product has price, supply, demand, production rate, production cost
+supply/demand deterimes price
+production rate determines supply
+income determines production rate
+price vs production cost determines income
+
+companies sell to locations
+
+location:
+has multiple products, small income from markup
+has local supply for all products
+each product has:
+supply/demand/(price: cost of purchase *1.15)/cost of purchase
+
+locations buy from companies, which is how locations increase their supply, and do so based on the local demand
+this determines the demand on the companies, who then use that to set their prices
+the supply of companies comes from their production, which depends on their income (or could be static)
